@@ -33,7 +33,7 @@ function Contact() {
           <form 
             name="contact" 
             method="POST" 
-            action="/" 
+            action="/contact" 
             data-netlify="true" 
             netlify-honeypot="bot-field"
           >
