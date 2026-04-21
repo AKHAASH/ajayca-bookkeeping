@@ -1,13 +1,27 @@
 import React from 'react';
 
+const encode = (data) => {
+  return Object.keys(data)
+    .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+    .join("&");
+};
+
 const handleSubmit = async (e) => {
   e.preventDefault();
 
-  const formData = new FormData(e.target);
+  const form = e.target;
+
+  const data = {
+    "form-name": "contact",
+    name: form.name.value,
+    email: form.email.value,
+    message: form.message.value
+  };
 
   await fetch("/", {
     method: "POST",
-    body: formData
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: encode(data)
   });
 
   alert("✅ Message sent successfully!");
