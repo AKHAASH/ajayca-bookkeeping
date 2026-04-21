@@ -1,5 +1,18 @@
 import React from 'react';
 
+const handleSubmit = async (e) => {
+  e.preventDefault();
+
+  const formData = new FormData(e.target);
+
+  await fetch("/", {
+    method: "POST",
+    body: formData
+  });
+
+  alert("✅ Message sent successfully!");
+};
+
 function Contact() {
   return (
     <div className="page-container">
@@ -30,6 +43,7 @@ function Contact() {
 
         <div className="contact-form">
           <form 
+            onSubmit={handleSubmit}
             name="contact" 
             method="POST" 
             action="/" 
