@@ -1,5 +1,31 @@
 import React from 'react';
 
+const encode = (data) => {
+  return Object.keys(data)
+    .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+    .join("&");
+};
+
+const handleSubmit = async (e) => {
+  e.preventDefault();
+
+  const form = e.target;
+
+  const data = {
+    "form-name": "contact",
+    name: form.name.value,
+    email: form.email.value,
+    message: form.message.value
+  };
+
+  await fetch("/", {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: encode(data)
+  });
+
+  alert("✅ Message sent successfully!");
+};
 
 function Contact() {
   return (
@@ -31,9 +57,10 @@ function Contact() {
 
         <div className="contact-form">
           <form 
+            onSubmit={handleSubmit}
             name="contact" 
             method="POST" 
-            action="/contact" 
+            action="/" 
             data-netlify="true" 
             netlify-honeypot="bot-field"
           >
