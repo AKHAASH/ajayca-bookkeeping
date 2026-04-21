@@ -29,13 +29,7 @@ function Contact() {
         </div>
 
         <div className="contact-form">
-          <form 
-            name="contact" 
-            method="POST" 
-            action="/" 
-            data-netlify="true" 
-            netlify-honeypot="bot-field"
-            >
+          <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
              <input type="hidden" name="form-name" value="contact" />
              <input type="hidden" name="bot-field" />
              
