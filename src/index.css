@@ -213,19 +213,19 @@ main {
 }
 
 .animate-fade-in {
-  animation: fadeIn 0.8s ease-out forwards;
+  animation: fadeIn 0.8s ease-out both;
 }
 
 .animate-slide-up {
-  animation: slideUp 0.8s ease-out forwards;
+  animation: slideUp 0.8s ease-out both;
 }
 
 .animate-slide-left {
-  animation: slideInLeft 0.8s ease-out forwards;
+  animation: slideInLeft 0.8s ease-out both;
 }
 
 .animate-slide-right {
-  animation: slideInRight 0.8s ease-out forwards;
+  animation: slideInRight 0.8s ease-out both;
 }
 
 /* Base Delay Utilities */
