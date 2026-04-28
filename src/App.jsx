@@ -6,6 +6,12 @@ import Pricing from './pages/Pricing';
 import Testimonials from './pages/Testimonials';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
+
+// Individual Blog Posts
+import BlogQualityBookkeeping from './pages/BlogQualityBookkeeping';
+import BlogQuickbooksCleanup from './pages/BlogQuickbooksCleanup';
+import BlogValueOngoingSupport from './pages/BlogValueOngoingSupport';
+
 import './index.css';
 
 function App() {
@@ -36,6 +42,11 @@ function App() {
             <Route path="/testimonials" element={<Testimonials />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/contact" element={<Contact />} />
+            
+            {/* Blog Post Routes */}
+            <Route path="/blog/importance-of-quality-bookkeeping" element={<BlogQualityBookkeeping />} />
+            <Route path="/blog/quickbooks-cleanup" element={<BlogQuickbooksCleanup />} />
+            <Route path="/blog/value-of-ongoing-support" element={<BlogValueOngoingSupport />} />
           </Routes>
         </main>
         

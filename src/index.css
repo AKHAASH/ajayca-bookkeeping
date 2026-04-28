@@ -439,6 +439,68 @@ ul li::before {
   box-shadow: 0 4px 6px rgba(0,0,0,0.05);
 }
 
+/* Blog & Posts */
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.post-card {
+  background: var(--white);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  border: 1px solid #e2e8f0;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  flex-direction: column;
+}
+
+.post-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+  border-color: var(--primary);
+}
+
+.post-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: var(--primary);
+  line-height: 1.4;
+}
+
+.post-card p {
+  color: var(--text);
+  margin-bottom: 1rem;
+  flex-grow: 1;
+}
+
+.post-meta {
+  font-size: 0.85rem;
+  color: #64748b;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.post-card .read-more {
+  display: inline-block;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  transition: color 0.2s;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+}
+
+.post-card .read-more:hover {
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
 /* Contact layout */
 .contact-grid {
   display: grid;
