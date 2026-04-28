@@ -37,7 +37,7 @@ function Contact() {
           <p>Ready to streamline your books? Choose a method below to get started.</p>
           
           <div className="info-cards">
-             <a href="https://calendar.app.google/VSLc3oSBkMKFxZnz6" target="_blank" className="contact-card">
+             <a href="https://calendly.com/ajaybookkeeping/30min" target="_blank" className="contact-card">
                <div className="card-icon">🗓️</div>
                <div>
                   <h3>Schedule a Meeting</h3>
