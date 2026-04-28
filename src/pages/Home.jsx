@@ -42,16 +42,6 @@ function Home() {
               <li>Tax-ready handoff for your CPA</li>
             </ul>
           </div>
-          
-          <div className="service-card">
-            <h3>Consulting & Training</h3>
-            <p>Keep bookkeeping in-house with expert setup, training, and periodic reviews.</p>
-            <ul>
-              <li>Personalized QuickBooks setup</li>
-              <li>Workflow optimization</li>
-              <li>Monthly or quarterly accuracy reviews</li>
-            </ul>
-          </div>
         </div>
         <div className="center-btn">
              <Link to="/services" className="btn outline">View All Services</Link>

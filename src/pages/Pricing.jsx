@@ -10,7 +10,7 @@ function Pricing() {
         <div className="pricing-card">
           <h2>Essential</h2>
           <p className="subtitle">Simple, accurate bookkeeping every month</p>
-          <div className="price">$300 to $350 / month</div>
+          <div className="price">$150 to $200 / month</div>
           <ul>
             <li>✓ Monthly bank and card reconciliation</li>
             <li>✓ Expense categorization with bank rules</li>
@@ -23,7 +23,7 @@ function Pricing() {
           <div className="badge">Most popular</div>
           <h2>Professional</h2>
           <p className="subtitle">Clear numbers that support growth</p>
-          <div className="price">$350 to $450 / month</div>
+          <div className="price">$200 to $350 / month</div>
           <ul>
             <li>✓ Everything in Essential</li>
             <li>✓ Light AR and AP tracking</li>
@@ -36,7 +36,7 @@ function Pricing() {
         <div className="pricing-card">
           <h2>Premium</h2>
           <p className="subtitle">Hands-on support and advanced reporting</p>
-          <div className="price">$450 to $750 / month</div>
+          <div className="price">$350 to $500 / month</div>
           <ul>
             <li>✓ Everything in Professional</li>
             <li>✓ Custom reports and KPI dashboards</li>
