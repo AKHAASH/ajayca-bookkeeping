@@ -45,11 +45,11 @@ function Contact() {
                </div>
              </a>
              
-             <a href="mailto:aj@ajaybookkeeping.com" className="contact-card">
+             <a href="mailto:AJ@ajaybookkeeping.com" className="contact-card">
                <div className="card-icon">✉️</div>
                <div>
                   <h3>Email Us</h3>
-                  <p>aj@ajaybookkeeping.com</p>
+                  <p>AJ@ajaybookkeeping.com</p>
                </div>
              </a>
           </div>
