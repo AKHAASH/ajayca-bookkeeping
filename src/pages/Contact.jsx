@@ -29,10 +29,10 @@ const handleSubmit = async (e) => {
 
 function Contact() {
   return (
-    <div className="page-container">
-      <h1>Let’s get your finances in order.</h1>
+    <div className="page-container animate-fade-in">
+      <h1 className="animate-slide-up">Let’s get your finances in order.</h1>
       
-      <div className="contact-grid">
+      <div className="contact-grid animate-slide-up delay-100">
         <div className="contact-info">
           <p>Ready to streamline your books? Choose a method below to get started.</p>
           

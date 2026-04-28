@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 function Home() {
   return (
-    <div className="home">
+    <div className="home animate-fade-in">
       <section className="hero">
-        <div className="hero-content">
+        <div className="hero-content animate-slide-up delay-100">
           <h1>YOUR BOOKS DESERVE BETTER — AND SO DO YOU</h1>
           <p>
             Messy books kill clarity. I keep your QuickBooks clean, your financials

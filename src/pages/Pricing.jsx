@@ -2,11 +2,11 @@ import React from 'react';
 
 function Pricing() {
   return (
-    <div className="page-container">
-      <h1>Pricing</h1>
-      <p>Transparent pricing. No contracts. First month satisfaction guarantee or you do not pay.</p>
+    <div className="page-container animate-fade-in">
+      <h1 className="animate-slide-up">Pricing</h1>
+      <p className="animate-slide-up delay-100">Transparent pricing. No contracts. First month satisfaction guarantee or you do not pay.</p>
       
-      <div className="pricing-grid">
+      <div className="pricing-grid animate-slide-up delay-200">
         <div className="pricing-card">
           <h2>Essential</h2>
           <p className="subtitle">Simple, accurate bookkeeping every month</p>

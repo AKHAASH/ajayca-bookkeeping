@@ -28,17 +28,6 @@ function Services() {
             <li>✓ Tax-ready handoff for your CPA</li>
           </ul>
         </div>
-        
-        <div className="service-item">
-          <h2>Consulting & Training</h2>
-          <p>Keep bookkeeping in-house with expert setup, training, and periodic reviews to keep your team confident and accurate.</p>
-          <ul>
-            <li>✓ Personalized QuickBooks setup and training</li>
-            <li>✓ Chart of accounts and workflow optimization</li>
-            <li>✓ Monthly or quarterly accuracy reviews</li>
-            <li>✓ Option to upgrade to monthly service anytime</li>
-          </ul>
-        </div>
       </div>
     </div>
   );
