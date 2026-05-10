@@ -35,10 +35,10 @@ function Contact() {
         <p>Ready to streamline your books? Choose a method below to get started.</p>
       </div>
       
-      <div className="contact-grid animate-slide-up delay-100">
+      <div className="contact-grid">
         <div className="contact-info">
           <div className="info-cards">
-             <a href="https://calendly.com/ajaybookkeeping/30min" target="_blank" className="contact-card">
+             <a href="https://calendly.com/ajaybookkeeping/30min" target="_blank" className="contact-card animate-slide-from-right">
                <div className="card-icon">🗓️</div>
                <div>
                   <h3>Schedule a Meeting</h3>
@@ -46,7 +46,7 @@ function Contact() {
                </div>
              </a>
              
-             <a href="mailto:AJ@ajaybookkeeping.com" className="contact-card">
+             <a href="mailto:AJ@ajaybookkeeping.com" className="contact-card animate-slide-from-right delay-200">
                <div className="card-icon">✉️</div>
                <div>
                   <h3>Email Us</h3>
@@ -56,7 +56,7 @@ function Contact() {
           </div>
         </div>
 
-        <div className="contact-form">
+        <div className="contact-form animate-slide-down-from-top">
           <form 
             onSubmit={handleSubmit}
             name="contact" 
