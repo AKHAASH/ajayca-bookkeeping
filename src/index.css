@@ -418,12 +418,12 @@ ul li::before {
 .cta-section {
   text-align: center;
   background: var(--primary);
-  color: var(--white);
+  color: black;
   padding: 4rem 2rem;
 }
 
 .cta-section h2 {
-  color: var(--white);
+  color: black;
 }
 
 .cta-section .btn.primary {
