@@ -7,7 +7,9 @@ function BlogQualityBookkeeping() {
     <div className="page-container content-wrap animate-fade-in" style={{ marginTop: '2rem', maxWidth: '800px' }}>
       <Link to="/blog" className="btn text-link" style={{ marginBottom: '2rem', display: 'inline-block' }}>&larr; Back to Blog</Link>
       
-      <h1 className="animate-slide-up">The Importance of Quality Bookkeeping for Small Businesses</h1>
+      <div className="page-banner animate-slide-up">
+        <h1>The Importance of Quality Bookkeeping for Small Businesses</h1>
+      </div>
 
       <img src={img3} alt="Quality Bookkeeping" className="animate-slide-up delay-100" style={{ width: '100%', maxHeight: '400px', objectFit: 'cover', borderRadius: '8px', marginBottom: '2rem', marginTop: '1rem' }} />
 

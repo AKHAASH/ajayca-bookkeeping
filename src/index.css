@@ -440,6 +440,30 @@ ul li::before {
 }
 
 /* Internal Pages Layout */
+.page-banner {
+  background-image: linear-gradient(rgba(11, 26, 46, 0.7), rgba(11, 26, 46, 0.7)), url('./assets/background.jpg');
+  background-size: cover;
+  background-position: center;
+  color: var(--white);
+  padding: 6rem 2rem;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 3rem;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.page-banner h1 {
+  color: var(--white);
+  margin-bottom: 0.5rem;
+}
+
+.page-banner p {
+  color: #e2e8f0;
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 .content-wrap {
   max-width: 800px;
   background: var(--white);

@@ -7,8 +7,10 @@ import img3 from '../assets/img3.png';
 function Blog() {
   return (
     <div className="page-container animate-fade-in">
-      <h1 className="animate-slide-up">Our Blog</h1>
-      <p className="animate-slide-up delay-100">Latest tips, tricks, and strategies to keep your finances clear and stress-free.</p>
+      <div className="page-banner animate-slide-up">
+        <h1>Our Blog</h1>
+        <p>Latest tips, tricks, and strategies to keep your finances clear and stress-free.</p>
+      </div>
       
       <div className="posts-grid animate-slide-up delay-200">
          <article className="post-card">

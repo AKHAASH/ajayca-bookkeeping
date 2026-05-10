@@ -3,7 +3,9 @@ import React from 'react';
 function About() {
   return (
     <div className="page-container animate-fade-in">
-      <h1 className="animate-slide-up">About Ajay</h1>
+      <div className="page-banner animate-slide-up">
+        <h1>About Ajay</h1>
+      </div>
       <div className="content-wrap animate-slide-up delay-100">
         <p>
           I started Ajay Bookkeeping & Advisory LLC after years of experience in accounting and bookkeeping because I saw many small business owners struggling to keep their financial records organized and up to date.

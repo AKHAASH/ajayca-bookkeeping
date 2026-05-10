@@ -2,11 +2,13 @@ import React from 'react';
 
 function Services() {
   return (
-    <div className="page-container">
-      <h1>Our Bookkeeping Services</h1>
-      <p>Choose the level of help you need. Whether you want to stay hands-on or hand it off completely, we’ve got you covered.</p>
+    <div className="page-container animate-fade-in">
+      <div className="page-banner animate-slide-up">
+        <h1>Our Bookkeeping Services</h1>
+        <p>Choose the level of help you need. Whether you want to stay hands-on or hand it off completely, we’ve got you covered.</p>
+      </div>
       
-      <div className="services-list">
+      <div className="services-list animate-slide-up delay-100">
         <div className="service-item">
           <h2>Monthly Bookkeeping</h2>
           <p>Stay on top of your finances with a reliable monthly process that keeps your books accurate and tax-ready.</p>

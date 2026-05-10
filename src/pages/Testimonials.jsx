@@ -2,11 +2,13 @@ import React from 'react';
 
 function Testimonials() {
   return (
-    <div className="page-container">
-      <h1>Business owners who trust Ajay Bookkeeping</h1>
-      <p>Over 50 small business owners rely on us to keep their books accurate, tax-ready, and stress-free.</p>
+    <div className="page-container animate-fade-in">
+      <div className="page-banner animate-slide-up">
+        <h1>Business owners who trust Ajay Bookkeeping</h1>
+        <p>Over 50 small business owners rely on us to keep their books accurate, tax-ready, and stress-free.</p>
+      </div>
       
-      <div className="testimonial-grid">
+      <div className="testimonial-grid animate-slide-up delay-100">
         <div className="testimonial-card">
           <p>"Ajay cleaned up 2 years of messy records perfectly. Highly recommended!"</p>
           <h4>- Local Business Owner</h4>
