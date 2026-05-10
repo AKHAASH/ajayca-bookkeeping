@@ -2,15 +2,17 @@ import React from 'react';
 
 function About() {
   return (
-    <div className="page-container">
-      <h1>About Ajay</h1>
-      <div className="content-wrap">
+    <div className="page-container animate-fade-in">
+      <h1 className="animate-slide-up">About Ajay</h1>
+      <div className="content-wrap animate-slide-up delay-100">
         <p>
-          I started Ajay Bookkeeping after years in accounting because I saw
-          small business owners struggling with their books.
+          I started Ajay Bookkeeping & Advisory LLC after years of experience in accounting and bookkeeping because I saw many small business owners struggling to keep their financial records organized and up to date.
         </p>
-        <p>
-          My goal is to provide clean numbers, clear answers, and save you time. Let me handle the heavy lifting while you focus on growing your business.
+        <p style={{ marginTop: '1rem' }}>
+          Our goal is to provide accurate bookkeeping, clear financial reporting, and reliable accounting support that helps business owners save time and focus on growing their business.
+        </p>
+        <p style={{ marginTop: '1rem' }}>
+          We assist businesses with bookkeeping, reconciliations, transaction categorization, and ongoing financial record management using modern cloud-based accounting platforms.
         </p>
       </div>
     </div>
