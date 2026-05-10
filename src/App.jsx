@@ -3,7 +3,6 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
 import Pricing from './pages/Pricing';
-import Testimonials from './pages/Testimonials';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 
@@ -28,7 +27,6 @@ function MainApp() {
           <Link to="/about">About</Link>
           <Link to="/services">Services</Link>
           <Link to="/pricing">Pricing</Link>
-          <Link to="/testimonials">Testimonials</Link>
           <Link to="/blog">Blog</Link>
           <Link to="/contact">Contact</Link>
         </nav>
@@ -40,7 +38,6 @@ function MainApp() {
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/pricing" element={<Pricing />} />
-          <Route path="/testimonials" element={<Testimonials />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
           
