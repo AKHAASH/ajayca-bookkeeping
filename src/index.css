@@ -212,6 +212,11 @@ main {
   to { transform: translateX(0); opacity: 1; }
 }
 
+@keyframes slideDownNav {
+  from { transform: translateY(-100%); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
 .animate-fade-in {
   animation: fadeIn 0.8s ease-out both;
 }
@@ -226,6 +231,10 @@ main {
 
 .animate-slide-right {
   animation: slideInRight 0.8s ease-out both;
+}
+
+.animate-slide-down-nav {
+  animation: slideDownNav 0.6s ease-out both;
 }
 
 /* Base Delay Utilities */
