@@ -14,9 +14,9 @@ function Pricing() {
           <p className="subtitle">Simple, accurate bookkeeping every month</p>
           <div className="price">$150 to $200 / month</div>
           <ul>
-            <li>✓ Monthly bank and card reconciliation</li>
-            <li>✓ Expense categorization with bank rules</li>
-            <li>✓ Monthly financial statements</li>
+            <li>Monthly bank and card reconciliation</li>
+            <li>Expense categorization with bank rules</li>
+            <li>Monthly financial statements</li>
           </ul>
           <p className="best-for">Best for freelancers and solo owners under $100k revenue</p>
         </div>
@@ -27,10 +27,10 @@ function Pricing() {
           <p className="subtitle">Clear numbers that support growth</p>
           <div className="price">$200 to $350 / month</div>
           <ul>
-            <li>✓ Everything in Essential</li>
-            <li>✓ Light AR and AP tracking</li>
-            <li>✓ Quarterly performance summary</li>
-            <li>✓ Priority support</li>
+            <li>Everything in Essential</li>
+            <li>Light AR and AP tracking</li>
+            <li>Quarterly performance summary</li>
+            <li>Priority support</li>
           </ul>
           <p className="best-for">Best for growing businesses with multiple accounts</p>
         </div>
@@ -40,10 +40,10 @@ function Pricing() {
           <p className="subtitle">Hands-on support and advanced reporting</p>
           <div className="price">$350 to $500 / month</div>
           <ul>
-            <li>✓ Everything in Professional</li>
-            <li>✓ Custom reports and KPI dashboards</li>
-            <li>✓ Accrual, payroll, and loan tracking</li>
-            <li>✓ CPA-ready books for tax time</li>
+            <li>Everything in Professional</li>
+            <li>Custom reports and KPI dashboards</li>
+            <li>Accrual, payroll, and loan tracking</li>
+            <li>CPA-ready books for tax time</li>
           </ul>
           <p className="best-for">Best for established or multi-entity businesses</p>
         </div>

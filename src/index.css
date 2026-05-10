@@ -267,7 +267,7 @@ section > p {
 }
 
 /* Cards & Grids */
-.services-grid, .pricing-grid, .testimonial-grid {
+.services-grid, .testimonial-grid {
   display: flex;
   gap: 2rem;
   max-width: 1100px;
@@ -275,8 +275,7 @@ section > p {
   justify-content: center;
   flex-wrap: wrap;
 }
-
-.service-card, .pricing-card {
+.service-card {
   background: var(--white);
   padding: 3rem 2rem;
   border-radius: 8px;
@@ -288,48 +287,99 @@ section > p {
   will-change: transform, box-shadow;
 }
 
-.service-card:hover, .pricing-card:not(.popular):hover {
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+}
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  max-width: 1100px;
+  margin: 3rem auto 0;
+}
+
+.pricing-card {
+  background: var(--white);
+  padding: 2rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+  flex: 1;
+  border: 1px solid #e2e8f0;
+  border-top: 6px solid var(--primary);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 15px 40px rgba(0,0,0,0.12);
 }
 
+.pricing-card h2 {
+  font-size: 1.5rem;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
 .pricing-card.popular {
-  border-top: 4px solid var(--gold);
+  border-top: 6px solid var(--gold);
   position: relative;
-  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
   z-index: 1;
-  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .pricing-card.popular:hover {
-  transform: scale(1.08) translateY(-8px);
-  box-shadow: 0 20px 45px rgba(0,0,0,0.15);
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.12);
 }
 
 .badge {
   position: absolute;
-  top: -15px;
+  top: -18px;
   left: 50%;
   transform: translateX(-50%);
   background: var(--gold);
-  color: var(--primary);
-  padding: 6px 16px;
-  border-radius: 20px;
-  font-size: 0.8rem;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 30px;
+  font-size: 0.85rem;
   font-weight: 800;
   text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 .price {
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 800;
-  color: var(--primary);
-  margin: 1.5rem 0;
+  color: var(--accent);
+  margin: 0.5rem 0 1.2rem;
+  text-align: center;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e2e8f0;
 }
 
 .subtitle {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #64748b;
+  margin-bottom: 0.8rem;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.best-for {
+  font-size: 0.85rem;
   font-weight: 600;
-  color: var(--text);
+  color: var(--primary);
+  background: #f1f5f9;
+  padding: 12px;
+  border-radius: 6px;
+  margin-top: auto;
+  text-align: center;
 }
 
 /* Lists */
@@ -340,12 +390,12 @@ ul {
 }
 
 ul li {
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
   border-bottom: 1px solid #e2e8f0;
-  padding-bottom: 1rem;
-  font-size: 0.95rem;
+  padding-bottom: 0.8rem;
+  font-size: 0.85rem;
   position: relative;
-  padding-left: 1.5rem;
+  padding-left: 1.2rem;
 }
 
 ul li::before {
