@@ -1,4 +1,5 @@
-﻿import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
+﻿import React, { useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
@@ -15,6 +16,10 @@ import './index.css';
 
 function MainApp() {
   const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
   
   return (
     <div className="app-container">
