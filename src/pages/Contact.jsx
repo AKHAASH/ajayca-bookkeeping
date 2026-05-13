@@ -38,7 +38,7 @@ function Contact() {
       <div className="contact-grid">
         <div className="contact-info">
           <div className="info-cards">
-             <a href="https://calendly.com/ajaybookkeeping/30min" target="_blank" className="contact-card animate-slide-from-right">
+             <a href="https://calendar.app.google/CREjnc5faH3GRvFv6" target="_blank" className="contact-card animate-slide-from-right">
                <div className="card-icon">🗓️</div>
                <div>
                   <h3>Schedule a Meeting</h3>
